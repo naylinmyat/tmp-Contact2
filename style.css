@@ -258,7 +258,7 @@ nav .nav-content-mobile-view .signup-btn:hover{
     box-shadow: 0 10px 15px rgb(0 0 0 / 20%);
 }
 .form-control{
-    width: 90%;
+    width: 92%;
     border: none;
     border-radius: 5px;
     padding: 4%;
@@ -266,7 +266,7 @@ nav .nav-content-mobile-view .signup-btn:hover{
     height: 8%;
 }
 .input-textarea{
-    width: 90%;
+    width: 92%;
     height: 29%;
     padding: 4%;
     border: none;
