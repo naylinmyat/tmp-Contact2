@@ -295,7 +295,7 @@ nav .nav-content-mobile-view .signup-btn:hover{
     display: flex;
     justify-content: space-between;
     padding-bottom: 3%;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(230, 229, 229);
 }
 .footer-content .widget-one{
     width: 32%;
@@ -541,6 +541,9 @@ nav .nav-content-mobile-view .signup-btn:hover{
     /* Hero Body Mobile View end */
 
     /* Content Mobile View start */
+    .content{
+        padding: 6% 5%;
+    }
     .cards-group{
         flex-direction: column;
     }
@@ -571,6 +574,7 @@ nav .nav-content-mobile-view .signup-btn:hover{
     /* Footer Mobile View start */
     .footer-content{
         flex-direction: column;
+        width: 90%;
     }
     .footer-content .widget-one,
     .footer-content .widget-two,
@@ -600,7 +604,7 @@ nav .nav-content-mobile-view .signup-btn:hover{
     .footer-text{
         padding: 3% 0;
         text-align: start;
-        margin-left: 10%;
+        margin-left: 5%;
     }
     /* Footer Mobile View end */
 }
