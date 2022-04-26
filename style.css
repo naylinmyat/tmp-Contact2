@@ -94,14 +94,15 @@ nav{
     color: white;
     padding: 1rem;
     cursor: pointer;
+    font-size: 1rem;
 }
-.login-and-signup-buttons .signup-btn,
-.start-btn{
+.login-and-signup-buttons .signup-btn{
     border: none;
     background: #FD4C5C;
     color: white;
     padding: 0.6rem 1.5rem;
     cursor: pointer;
+    font-size: 1rem;
 }
 
 #check{
@@ -156,6 +157,8 @@ nav .nav-content-mobile-view .signup-btn{
     padding: 1rem;
     cursor: pointer;
     width: 40%;
+    font-size: 1.5rem;
+    border-radius: 15px;
 }
 nav .nav-content-mobile-view .login-btn{
     background: rgba(72, 223, 34, 0.829);
@@ -282,6 +285,10 @@ nav .nav-content-mobile-view .signup-btn:hover{
     cursor: pointer;
     border-radius: 3px;
     margin-top: 4%;
+}
+.submit-button:hover{
+    color: black;
+    transition: all 0.5s;
 }
 /* Content end */
 
@@ -602,7 +609,8 @@ nav .nav-content-mobile-view .signup-btn:hover{
     width: 5%;
     }
     .footer-text{
-        padding: 3% 0;
+        font-size: 1rem;
+        padding: 6% 0;
         text-align: start;
         margin-left: 5%;
     }
